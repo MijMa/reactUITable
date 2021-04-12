@@ -1,0 +1,10 @@
+{
+  "extends": ["config:base"],
+  "schedule": ["at 3:00 on Monday"],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
+}
