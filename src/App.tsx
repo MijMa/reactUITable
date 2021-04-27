@@ -37,7 +37,7 @@ export default function BasicTable() {
   //apufunktio onclick-eventille
   let toggleActiveElement = (id: number, idArray: number[]) => {
     const temp = idArray;
-    //ei renderöi poiston yhteydessä, vasta kun uusi lisataan
+    //ei renderöi poiston yhteydessä, vasta kun uusi lisataann
     if (idArray.includes(id)) {
       idArray.splice(idArray.indexOf(id), 1);
       console.log("poistettu");
