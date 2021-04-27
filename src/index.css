@@ -3,3 +3,6 @@
   font-family: 'Titillium Web';
   display: none;
 }
+.active {
+  background: #CCCCCC;
+}
